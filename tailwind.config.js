@@ -6,20 +6,17 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      violet: "hsl(256, 26%, 20%)",
-      grayblue: "hsl(216, 30%, 68%);",
-      midnight: " hsl(270, 9%, 17%)",
-      tahiti: "hsl(273, 4%, 51%)",
-      light: "hsl(0, 0%, 98%)",
-    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        violet: "#2d2640",
+        grayblue: "#95a9c6;",
+        midnight: "#2b272f",
+        tahiti: "#837d87",
+        light: "#fafafa",
+        gray1: "#DADADA",
+        hover: "#2C2830",
       },
     },
   },
