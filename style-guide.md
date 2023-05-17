@@ -26,11 +26,6 @@ The designs were created to the following widths:
 
 - Font size: 16px
 
-### Headings
-
-- Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
-- Weights: 400
-
 ### Body
 
 - Family: [Karla](https://fonts.google.com/specimen/Karla)
