@@ -2,11 +2,11 @@ import React from "react";
 
 const Different = () => {
   return (
-    <section className="text-center px-6 md:px-10 lg:px-40 py-40">
+    <section className="text-center md:text-left px-6 md:px-10 lg:px-40 py-40">
       <h2 className="text-7xl text-midnight pb-20">We&apos;re different</h2>
 
       <div className="grid gap-9 md:grid-cols-3 ">
-        <div className="flex flex-col gap-4 items-center">
+        <div className="flex flex-col gap-4 items-center md:items-start">
           <svg xmlns="http://www.w3.org/2000/svg" width="86" height="86">
             <g fill="none" fill-rule="evenodd">
               <circle cx="43" cy="43" r="43" fill="#96A9C6" />
@@ -23,7 +23,7 @@ const Different = () => {
             Don’t get stuck filling in tedious forms.
           </p>
         </div>
-        <div className="flex flex-col gap-4 items-center ">
+        <div className="flex flex-col gap-4 items-center md:items-start ">
           <svg xmlns="http://www.w3.org/2000/svg" width="86" height="86">
             <g fill="none" fill-rule="evenodd">
               <circle cx="43" cy="43" r="43" fill="#96A9C6" />
@@ -40,7 +40,7 @@ const Different = () => {
             may be low, but we still offer the best coverage possible.
           </p>
         </div>
-        <div className="flex flex-col gap-4 items-center ">
+        <div className="flex flex-col gap-4 items-center md:items-start ">
           <svg xmlns="http://www.w3.org/2000/svg" width="86" height="86">
             <g fill="none" fill-rule="evenodd">
               <circle cx="43" cy="43" r="43" fill="#96A9C6" />
