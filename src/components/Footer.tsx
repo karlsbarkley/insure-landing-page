@@ -70,7 +70,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <nav className="z-10 flex flex-col text-center gap-8 pt-8 pb-12 md:flex-row md:align-center md:justify-between">
+      <nav className="z-10 flex flex-col text-center md:text-left gap-8 pt-8 pb-12 md:flex-row md:align-center md:justify-between">
         <figure className="uppercase text-sm">
           <figcaption className="text-tahiti pb-4">Our company</figcaption>
           <ul className="cursor-pointer space-y-2">

@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed w-full h-24 bg-white z-40 px-6 md:px-10 lg:px-40 md:py-8">
       <div className="flex justify-between items-center h-full w-full px-6">
         <Link href="/">
-          <Image src={Logo} alt="Insure company logo"></Image>
+          <Image src={Logo} alt="Logo of Insure company"></Image>
         </Link>
 
         <ul className="hidden md:flex items-center uppercase">
@@ -61,11 +61,11 @@ const Navbar = () => {
             : "fixed text-light left-[100%] top-[6rem] w-[65%] md:hidden h-screen bg-midnight p-10 ease-in duration-500"
         }
       >
-        <ul className="tracking-widest text-xl leading-10 text-center flex flex-col w-full items-center justify-end">
+        <ul className="tracking-widest text-xl leading-10 text-center flex flex-col w-full items-stretch justify-end">
           <Link href="#">
             <li
               onClick={() => setMenuOpen(false)}
-              className="mt-10 uppercase hover:border-b"
+              className="mt-10 uppercase hover:underline"
             >
               How we work
             </li>
@@ -73,7 +73,7 @@ const Navbar = () => {
           <Link href="#">
             <li
               onClick={() => setMenuOpen(false)}
-              className="mt-10 uppercase hover:border-b"
+              className="mt-10 uppercase hover:underline"
             >
               Blog
             </li>
@@ -81,7 +81,7 @@ const Navbar = () => {
           <Link href="#">
             <li
               onClick={() => setMenuOpen(false)}
-              className="mt-10 uppercase hover:border-b"
+              className="mt-10 uppercase hover:underline"
             >
               Account
             </li>
@@ -89,7 +89,7 @@ const Navbar = () => {
           <Link href="#">
             <li
               onClick={() => setMenuOpen(false)}
-              className="mt-10 mx-6 uppercase hover:bg-white hover:text-midnight border-2 p-3"
+              className="mt-10 w-full uppercase hover:bg-white hover:text-midnight border-2 p-3"
             >
               View plans
             </li>

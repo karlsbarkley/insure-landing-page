@@ -3,7 +3,10 @@ import React from "react";
 const Different = () => {
   return (
     <section className="text-center md:text-left px-6 md:px-10 lg:px-40 py-40">
-      <h2 className="text-7xl text-midnight pb-20">We&apos;re different</h2>
+      <h2 className="text-7xl text-midnight pb-20 relative">
+        <span className="block absolute right-50 w-[150px] h-0.5 bg-[#C396C6] -translate-y-[2rem] translate-x-[130%]  md:translate-x-0"></span>
+        We&apos;re different
+      </h2>
 
       <div className="grid gap-9 md:grid-cols-3 ">
         <div className="flex flex-col gap-4 items-center md:items-start">

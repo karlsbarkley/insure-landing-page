@@ -12,6 +12,7 @@ function Hero() {
     <section className="pt-24 md:pb-24 md:px-10 lg:px-40 bg-violet text-light flex flex-col-reverse items-center relative md:flex-row md:gap-20">
       <div className="space-y-8 text-center md:text-left md:w-1/2 relative px-6 py-20">
         <h1 className="text-5xl md:text-7xl tracking-tight">
+          <span className="hidden md:block absolute w-[150px] h-0.5 bg-light -translate-y-[2rem]"></span>
           Humanizing your insurance.
         </h1>
         <p className="text-base">
